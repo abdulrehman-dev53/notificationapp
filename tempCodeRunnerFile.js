@@ -1,6 +1,7 @@
 import express from "express";
 const app = express();
 
+
 app.post("/send", async (req, res) => {
   try {
     const { token, title, body } = req.body;
